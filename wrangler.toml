@@ -1,6 +1,9 @@
 name = "openai-proxy"
-account_id = ""
+account_id = "5d472d69d01fa837997334f0862b4629"
 usage_model = "bundled"
 workers_dev = true
-compatibility_date = "2022-10-03"
+compatibility_date = "2023-03-14"
 main = "src/index.ts"
+routes = [
+	{ pattern = "api.aizhushou.work", custom_domain = true },
+]
